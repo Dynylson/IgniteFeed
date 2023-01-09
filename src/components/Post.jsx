@@ -11,7 +11,7 @@ export function Post() {
           />
           <div className={styles.authorInfo}>
             <strong>Dynylson Junior</strong>
-            <strong>Web Developer</strong>
+            <span>Web Developer</span>
           </div>
         </div>
 
@@ -29,10 +29,11 @@ export function Post() {
             🚀
           </p>
           <p>
-            👉<a href='#'>jane.design/doctorcare</a>{" "}
+            👉 <a href='#'>jane.design/doctorcare</a>
           </p>
           <p>
-            <a href='#'>#novoprojeto #nlw #rocketseat</a>
+            <a href='#'>#novoprojeto</a> <a href='#'>#nlw</a>{" "}
+            <a href='#'>#rocketseat</a>
           </p>
         </p>
       </div>
